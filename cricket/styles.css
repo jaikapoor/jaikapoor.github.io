@@ -1,3 +1,6 @@
+body {
+    background-color: #FAF4EF;
+}
 img, p, h1, h2, .divider {
 	width: 100%;
 	max-width: 640px;
@@ -18,7 +21,7 @@ h1, h2 {
     }
 .divider {
     height: 2px;
-    background-color: #0868ac;
+    background-color: #da1818;
     margin-top: 10px;
     margin-bottom: 10px;
     }
@@ -26,7 +29,7 @@ h1, h2 {
     font-size: 14px;
     font-family: "PT Sans";
 }
-#naturepic {
+#barcharts {
     width: 100%;
     display: block;
     padding: 15px 0px;
@@ -34,4 +37,30 @@ h1, h2 {
 	margin-left: auto;
 	margin-right: auto;
 }
-            
+#chart-bar {
+    width: 100%;
+    display: block;
+    padding: 15px 0px;
+    max-width: 1000px;
+    margin: 20px auto 10px auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.radar-kohli {
+    display: block;
+    width: 75%;
+    max-width: 500px;
+    margin: 20px auto 10px auto;
+}
+.radar-row {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+.radar-small {
+    width: 32%;        
+    min-width: 220px;
+    flex-shrink: 0;
+}
